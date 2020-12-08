@@ -1,0 +1,85 @@
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  font-family: "Helvetica", sans-serif;
+  
+
+  
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+	margin: 10px auto; 
+	border-radius: 5px;
+  background: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  text-align: center;
+
+}
+.card-white:hover{
+	background: #F5FFFA;
+
+}
+.list2 li{
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px;
+}
+.list-inline {
+
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+.list-inline i {
+  font-size: 30px;
+  color: #0000CD;
+}
+.list-inline i:hover{
+  color: black;
+}
+.img-profile{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:100px;
+    height:100px;
+}
+#home-page-first-image {
+  border-radius: 50%;
+}
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+#contact:hover{
+  color: #808080;
+}
+.text{
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+.text-date{
+  text-decoration-style: bold;
+}
